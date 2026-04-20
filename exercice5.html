@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>TP JavaScript</title>
+  </head>
+  <body>
+    <h1>Exercice 5</h1>
+   <h1>Ma fiche de présentation</h1>
+     <p id="nomComplet">...</p>
+     <p id="age">...</p>
+     <p id="ville">...</p>
+     <p id="presentation">...</p>
+
+    <script>
+      let prenom = "zidane";
+      let nom = "nait cheikh";
+      let age = 33;
+      let ville = "marrakech";
+      document.getElementById("nomComplet").innerHTML = `Nom complet : ${prenom} ${nom}`;
+      document.getElementById("age").innerHTML = `Âge : ${age}`;
+      document.getElementById("ville").innerHTML = `ville : ${ville}`;
+      document.getElementById("presentation").innerHTML = `Je m'appelle ${prenom} \, ${nom}, j'ai ${age} ans et j'habite à ${ville}.`;
+    </script>
+  </body>
+</html>
